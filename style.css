@@ -1,0 +1,212 @@
+@font-face {
+   font-family: AvantGarde;
+   src: url("./assets/fonts/ITCAvantGardePro-Bk.otf") format("opentype");
+}
+
+@font-face {
+   font-family: AvantGarde;
+   font-weight: bold;
+   src: url("./assets/fonts/ITCAvantGardePro-Bold.otf") format("opentype");
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   overflow-x: hidden;
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+   min-height: 864px;
+   display: flex;
+}
+
+.left img {
+   width: 720px;
+   height: auto;
+}
+.right {
+   width: 720px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.right h2 {
+   width: 494px;
+   height: 123px;
+   margin-top: 96px;
+   margin-left: 120px;
+   font-size: 31.25;
+   font-weight: 700;
+   line-height: 130%;
+   color: #000000;
+   font-family: "AvantGarde";
+}
+.right p {
+   width: 494px;
+   height: 52px;
+   margin-top: 12px;
+   margin-left: 120px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #666666;
+   font-family: "AvantGarde";
+}
+
+#click {
+   margin-top: 32px;
+   font-weight: 900;
+   color: #000000;
+   font-size: 12.8px;
+   width: 160px;
+   height: 17px;
+   line-height: 17px;
+   font-family: "AvantGarde";
+}
+#line {
+   width: 160px;
+   height: 1px;
+   border: 1px solid #000000;
+   font-family: "AvantGarde";
+}
+
+.image {
+   display: flex;
+   margin-top: 68px;
+}
+.down_image1 img {
+   width: 193px;
+   height: 280px;
+}
+.down_image2 img {
+   width: 193px;
+   height: 280px;
+}
+.down_image3 img {
+   width: 70px;
+   height: 280px;
+}
+.down_image1 {
+   width: 188px;
+   margin-left: 120px;
+}
+.down_image2 {
+   width: 188px;
+   margin-left: 32px;
+}
+.down_image3 {
+   width: 70px;
+   margin-left: 32px;
+}
+.detail {
+   display: flex;
+   flex-wrap: wrap;
+   width: 193px;
+}
+
+.detail span {
+   width: 193px;
+   font-size: 12px;
+   line-height: 20.48px;
+   color: #000000;
+   font-family: "AvantGarde";
+   font-weight: 400;
+}
+.price {
+   width: 250px;
+   display: flex;
+   flex-wrap: flex-end;
+   position: relative;
+   font-family: "AvantGarde";
+   font-weight: 500;
+   margin-top: 5px;
+}
+
+.root {
+   width: 158px;
+   display: flex;
+   flex-direction: row-reverse;
+   margin-top: 1px;
+}
+.round1 {
+   width: 14px;
+   height: 14px;
+   background-color: #a6cc99;
+   border: 1.5px solid #fff;
+   border-radius: 100%;
+   margin: 2px 0 0 3px;
+   padding: 2px;
+}
+.round2 {
+   width: 14px;
+   height: 14px;
+   background-color: #cb99cc;
+   border: 1.5px solid #fff;
+   border-radius: 100%;
+   margin: 2px 0 0 3px;
+   padding: 2px;
+}
+.round3 {
+   width: 14px;
+   height: 14px;
+   background-color: #cc9999;
+   border: 1.5px solid #fff;
+   border-radius: 100%;
+   margin: 2px 0 0 3px;
+   padding: 2px;
+}
+.round4 {
+   width: 12px;
+   height: 12px;
+   background-color: #a2d2ff;
+   border: 1.5px solid;
+   border-radius: 100%;
+   margin: 3px 0 0 3px;
+   padding: 2px;
+}
+
+@media screen and (max-width: 500px) {
+   body {
+      width: 100%;
+      flex-direction: column;
+   }
+   .left img {
+      width: 100%;
+   }
+   .right {
+      padding-left: 23px;
+      margin-top: -360px;
+   }
+   .right h2 {
+      margin-left: 9px;
+      color: #ffffff;
+   }
+   .right p {
+      opacity: 0;
+   }
+   #click {
+      opacity: 1;
+      margin-left: 9px;
+      margin-top: -80px;
+      color: #ffffff;
+   }
+   #line {
+      opacity: 1;
+      margin-left: 9px;
+      border: 1px solid #ffffff;
+   }
+   .image {
+      margin-left: -114px;
+      margin-bottom: 64px;
+   }
+   .root {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      top: 18px;
+      margin-left: -5px;
+   }
+}
