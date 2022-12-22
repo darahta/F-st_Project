@@ -6,6 +6,8 @@
 
 ![](https://github.com/darahta/F-st_Project/blob/master/digifist.gif)
 
+<br/>
+
 ![](https://github.com/darahta/F-st_Project/blob/master/digifist1.gif)
 
 
