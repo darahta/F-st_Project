@@ -4,7 +4,7 @@
 
 <h2>Görüntüler</h2>
 
-<p>![](https://github.com/darahta/F-st_Project/blob/master/digifist.gif)</p>
+                                          ![](https://github.com/darahta/F-st_Project/blob/master/digifist.gif)
 
 <br/><br/><br/>
 
