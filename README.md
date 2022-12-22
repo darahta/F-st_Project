@@ -4,5 +4,5 @@
 
 <h3>Görüntüler</h3>
 
-! [](https://github.com/darahta/F-st_Project/blob/master/digifist.gif)
+![](https://github.com/darahta/F-st_Project/blob/master/digifist.gif)
 
